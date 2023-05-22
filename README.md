@@ -1,7 +1,6 @@
 node-vorbis
 ========
 ### Node.js native binding to libvorbis
-[![Build Status](https://travis-ci.org/TooTallNate/node-vorbis.svg?branch=master)](https://travis-ci.org/TooTallNate/node-vorbis)
 
 This module provides Vorbis Encoder and Decoder classes compatible with `node-ogg`
 streams.
@@ -15,7 +14,7 @@ there's no need to have the library pre-installed on your system.
 Simply compile and install `node-vorbis` using `npm`:
 
 ``` bash
-$ npm install vorbis
+$ npm install @tap-ogg/vorbis
 ```
 
 
@@ -26,8 +25,8 @@ Decoder example:
 
 ``` javascript
 var fs = require('fs');
-var ogg = require('ogg');
-var vorbis = require('vorbis');
+var ogg = require('@suldashi/ogg');
+var vorbis = require('@tap-ogg/vorbis');
 var file = __dirname + '/Hydrate-Kenny_Beltrey.ogg';
 
 var od = new ogg.Decoder();
@@ -55,8 +54,8 @@ fs.createReadStream(file).pipe(od);
 Encoder example:
 
 ``` javascript
-var ogg = require('ogg');
-var vorbis = require('vorbis');
+var ogg = require('@suldashi/ogg');
+var vorbis = require('@tap-ogg/vorbis');
 
 var oe = new ogg.Encoder();
 var ve = new vorbis.Encoder();

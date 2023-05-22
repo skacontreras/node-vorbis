@@ -1,5 +1,5 @@
 {
-  "name": "vorbis",
+  "name": "@tap-ogg/vorbis",
   "description": "Node.js native binding to libvorbis",
   "keywords": [
     "ogg",
@@ -14,15 +14,15 @@
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-vorbis.git"
+    "url": "git://github.com/marek629/node-vorbis.git"
   },
   "main": "./index.js",
   "dependencies": {
+    "@suldashi/ogg": "^1.2.9",
     "bindings": "^1.2.0",
     "buffer-alloc": "^1.1.0",
     "debug": "^2.2.0",
     "nan": "^2.10.0",
-    "ogg": "github:BluSpring/node-ogg",
     "readable-stream": "^2.3.6"
   },
   "devDependencies": {

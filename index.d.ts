@@ -1,4 +1,4 @@
-declare module 'vorbis' {
+declare module '@tap-ogg/vorbis' {
     import {Transform, TransformOptions} from 'stream';
 
     export const version: string;

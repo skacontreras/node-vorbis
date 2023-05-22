@@ -4,7 +4,7 @@
  */
 
 var fs = require('fs');
-var ogg = require('ogg');
+var ogg = require('@suldashi/ogg');
 var path = require('path');
 var vorbis = require('../');
 var assert = require('assert');
