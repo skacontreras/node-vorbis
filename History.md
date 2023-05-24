@@ -1,3 +1,8 @@
+0.3.0 / 2023-05-24
+==================
+
+* release fork in tap-ogg organisation
+* updates for working on node v. 12-19 (BluSpring)
 
 0.2.1 / 2016-01-20
 ==================
