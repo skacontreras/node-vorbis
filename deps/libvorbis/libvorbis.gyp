@@ -75,7 +75,6 @@
       ['OS!="win"', {
         'defines': [
           'PIC',
-          'HAVE_CONFIG_H',
         ],
       }]
     ],
